@@ -1,0 +1,37 @@
+header{
+    background-color: black;
+    width: 200px;
+}
+
+.menu{
+    background-color:blanchedalmond;
+    text-align: center;
+}
+
+#photo{
+    height: 100px;
+    width: 100px;
+    border: palevioletred 2px solid;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation{
+    border: none;
+    background: none;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+.navigation:hover{
+    background-color: rgba(98, 135, 243, 0.658);
+    color: royalblue;
+
+}
