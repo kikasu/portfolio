@@ -8,6 +8,7 @@
                 <!-- partie css -->
                 <link rel="stylesheet" href="css/header.css">
                 <link rel="stylesheet" href="css/cummun.css">
+                <link rel="stylesheet" href="css/contact.css">
             
     <title>contact</title>
 </head>
@@ -18,6 +19,12 @@
         <section class="menu" id="photo">
 
             <img src="avatar/avatarBlanc.png" alt="avatar" height="100px" width="100px">
+
+        </section>
+
+        <section class="menu" id="CV">
+
+            <a target="_blank" href="https://drive.google.com/file/d/1Z1qNinbJRyaSSbsVVGJK_3E2FMRofTin/view?usp=sharing">Mon CV</a>
 
         </section>
 
@@ -45,48 +52,63 @@
 
     <main>
 
-        <section class="main" id="informations">
+        <section class="main" id="titre">
 
-            <sub class="informations" id="email">
-
-            </sub>
-
-            <sub class="informations" id="telephone">
-                
-            </sub>
-
-            <sub class="informations" id="disponibilitées">
-                
-            </sub>
+            <p>Me contacter</p>
 
         </section>
 
-        <section class="main" id="map">
+        <section class="main" id="contact">
 
-        </section>
+            <sub class="contact" id="informations">
 
-        <section class="main" id="formulaire">
+                <div class="informations" id="email">
 
-            <form action="" method="post">
+                </div>
 
-                <sub class="formulaire" id="identité">
+                <div class="informations" id="telephone">
 
-                    <input type="text" name="nom" id="nom" placeholder="NOM" required>
-                
-                    <input type="text" name="prenom" id="prenom" placeholder="PRENOM" required>
+                </div>
 
-                </sub>
+                <div class="informations" id="disponibilitees">
 
-                <input type="email" name="email" id="email" placeholder="EMAIL" required >
+                </div>
 
-                <input type="" name="telephone" id="telephone" placeholder="TELEPHONE" maxlength="10" 
-                    pattern="[0-9]{10}" required>
+            </sub>
 
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="VOTRE MESSAGE ICI" required></textarea>
+            <sub class="contact" id="map">
 
-                <input type="submit" value="envoyer">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84752.01590435773!2d-4.569624796648138!3d48.408534901071775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4816bbe1d9925b93%3A0xc6488358179c30ab!2sBrest!5e0!3m2!1sfr!2sfr!4v1643289033270!5m2!1sfr!2sfr"
+                width="80%" height="80%" style="border:0;" loading="lazy">
+            </iframe>
 
-            </form>
+            </sub>
+
+            <sub class="contact" id="formulaire">
+
+                <form action="" method="post">
+
+                    <sub class="formulaire" id="identité">
+    
+                        <input type="text" name="nom" id="nom" placeholder="NOM" required>
+                    
+                        <input type="text" name="prenom" id="prenom" placeholder="PRENOM" required>
+    
+                    </sub>
+    
+                    <input type="email" name="email" id="email" placeholder="EMAIL" required >
+    
+                    <input type="" name="telephone" id="telephone" placeholder="TELEPHONE" maxlength="10" 
+                        pattern="[0-9]{10}" required>
+    
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="VOTRE MESSAGE ICI" required></textarea>
+    
+                    <input type="submit" value="envoyer">
+    
+                </form>
+
+            </sub>
 
         </section>
 
