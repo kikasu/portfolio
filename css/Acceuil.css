@@ -1,0 +1,15 @@
+#introduction{
+    height: auto;
+    width: 50%;
+    text-align: center;
+}
+
+p{
+    vertical-align: middle;
+}
+
+#logos{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
