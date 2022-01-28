@@ -58,6 +58,11 @@ iframe{
     border-radius: 5%;
 }
 
+#carteGoogle{
+    width: 80%;
+    height: 80%;
+}
+
 form{
     margin: auto;
     height: 60%;
